@@ -1,0 +1,118 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+  
+   a {
+    text-decoration: none;
+   }
+
+   /* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: pink;
+    color: #000000;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* ABM */
+   .pic {
+    font-size: 30px;
+   }
+   .title {
+    font-size: 30px;
+    text-align: center;
+   }
+/* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+    list-style: none;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+
+
+   article, aside {
+    background-color: beige;
+    padding: 1%;
+     text-align: justify;
+  }
+
+  header {
+    height: 50px;
+    color: white;
+    background-color: red;
+    display: flex;
+    text-align: center;
+
+  }
+
+  main {
+    display: flex;
+  }
+
+  article {
+    flex: 4;
+    font-size: 50px;
+
+  }
+
+  aside {
+    color: #000000;
+    flex: 1;
+    padding: 40px;
+    background-color: lavender;
+    font-size: 30px;
+    align-items: left;
+  }
+
+  aside li {
+    padding-bottom: 10px;
+     text-align: left;
+  }
+ footer {
+    color: black;
+    background-color: pink;
+  }
+
+
